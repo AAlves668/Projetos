@@ -147,6 +147,13 @@ h1, h2 {
     height: 0;
     overflow: hidden;
     opacity: 0;
+    transition: .2s;
+}
+
+.duvida.ativa .paragrafo{
+    height: fit-content;
+    opacity: 1;
+    padding: 26px;
 }
 
 /*Rodapé*/
