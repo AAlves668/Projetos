@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header1{ 
+    background-color: rgb(167, 10, 19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%; 
+    
+}
+
+header2{
+    background-color: rgb(227,0,0);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    color: rgb(250, 247, 247);
+        
+}
+
+.navigate{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1em;
+    font: bolder;
+    align-items: center;
+    pointer-events: auto;
+}
+
+#outlet{
+    color: red;
+}
+
+#promo{
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+#portal{
+    background-color: red;
+    color: white;
+    padding: 1em;
+}
+
+
+
+#search{
+    background-color: whitesmoke;
+    width: 580px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+#flash{
+    background-color: red;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 350px 25px 350px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#arrow{
+    
+}
